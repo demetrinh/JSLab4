@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Lab 4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p>Total $<span class="total">0.00</span></p>
+    <button class="btn" data-cost="2">Lime Cola $2.00</button>
+    <button class="btn" data-cost="3">Salted Peanuts $3.00</button>
+    <button class="btn" data-cost="4">Chocolate Bar $4.00</button>
+    <button class="btn" data-cost="6">Fruit Gummies $6.00</button>
+
+    <section class="separator"></section>
+
+    <!-- <form class="mula">
+      <label for="number">How many?</label>
+      <input type="number" name="number" id="number" />
+      <label for="coin">Which coin?</label>
+      <select name="coin" id="coin">
+        <option value="Penny">Penny</option>
+        <option value="Nickel">Nickel</option>
+        <option value="Dime">Dime</option>
+        <option value="Quarter">Quarter</option>
+      </select>
+      <button>Make Money!</button>
+    </form> -->
+    <form class="money-form">
+      <label for="amount">How many?</label>
+      <input type="text" name="amount" id="amount" />
+      <label for="type">Which coin?</label>
+      <select name="type" id="type">
+        <option value="penny">Penny</option>
+        <option value="nickel">Nickel</option>
+        <option value="dime">Dime</option>
+        <option value="quarter">Quarter</option>
+      </select>
+      <button>Submit</button>
+    </form>
+    <div class="coin-container"></div>
+    <section class="separator"></section>
+
+    <section>
+      <div class="bulb"></div>
+      <button class="on switch">On</button>
+      <button class="off switch">Off</button>
+      <button class="toggle switch">Toggle</button>
+      <button class="end switch">End</button>
+    </section>
+
+    <!-- <div>
+      <p class="bulb">Light Bulb</p>
+      <button class="on">On</button>
+      <button class="off">Off</button>
+      <button class="toggle">Toggle</button>
+      <button class="end">End</button>
+    </div> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
